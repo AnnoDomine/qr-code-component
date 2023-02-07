@@ -8,7 +8,7 @@ const AppWrapper = () => {
         <div
             style={{
                 ...style.theme.additionals.flexCenterDisplay,
-                backgroundColor: style.theme.colors.grayishBlue,
+                backgroundColor: style.theme.colors.lightGray,
                 width: "100vw",
                 height: "100vh",
                 fontFamily: style.theme.typography.fontFamily,
