@@ -1,4 +1,4 @@
-import { useState } from "react";
+// external components
 import AppWrapper from "./components/AppWrapper";
 
 function App() {

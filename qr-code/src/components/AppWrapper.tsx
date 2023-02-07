@@ -1,4 +1,6 @@
+// external components
 import ContentBox from "./content/ContentBox";
+// theme injection
 import style from "./theme";
 
 const AppWrapper = () => {

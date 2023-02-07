@@ -1,3 +1,6 @@
+/**
+ * Theme injection for global stylings
+ */
 const theme = {
     colors: {
         white: "hsl(0, 0%, 100%)",
@@ -25,16 +28,10 @@ const theme = {
     },
 };
 
-const breakpoints = {
-    minDesktop: "600px",
-    minMobile: "0px",
-};
-
-const responsivnes = {
-    desktop: "1440px",
-    mobile: "375px",
-};
-
-const style = { theme, breakpoints, responsivnes };
+/**
+ * Global style injection
+ * @returns theme for global stylings
+ */
+const style = { theme };
 
 export default style;

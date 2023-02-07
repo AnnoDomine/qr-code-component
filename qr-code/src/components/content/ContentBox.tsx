@@ -1,11 +1,14 @@
-import useDesktop from "../../utils/hooks/useDesktop";
-import { contentBoxStyle } from "./ContentBox.styles";
+// external components
 import ContentFooter from "./contentFooter/ContentFooter";
 import QrCode from "./qrCode/QrCode";
+// styles
+import { contentBoxStyle } from "./ContentBox.styles";
+//custom hooks
+import useMobile from "../../utils/hooks/useMobile";
 
 const ContentBox = () => {
-    const isDesktop = useDesktop();
-    const sizeBox = isDesktop ? "575px" : "325px";
+    const isMobile = useMobile();
+    const sizeBox = isMobile ? "325px" : "575px";
 
     return (
         <div role={"content"} style={contentBoxStyle(sizeBox)}>

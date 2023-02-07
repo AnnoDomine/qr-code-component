@@ -1,4 +1,6 @@
+// external components
 import { contentFooterText } from "../utils/texts/contentFooterText";
+// styling
 import { contentFooterStyle } from "./ContentFooter.styles";
 
 const ContentFooter = () => {
